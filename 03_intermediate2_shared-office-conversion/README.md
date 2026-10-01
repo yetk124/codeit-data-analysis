@@ -85,11 +85,8 @@ A안을 우선 실험으로 하는 **A/B 테스트 설계**(대상·배정·중�
 
 **한계**: 결제 시각 부재로 선후관계 확인 불가(사후 분류 모델), 고객 배경·가격 정보 없음, 시간순 검증 미수행
 
-## 7. 내 역할 (원예은)
-
-<!-- TODO: 맡은 부분 작성 -->
 - 
 
-## 8. 기술 스택
+## 7. 기술 스택
 
 `Python` `pandas` `scikit-learn` `CatBoost` `XGBoost` `LightGBM` `SHAP` `SciPy` `Matplotlib` `Seaborn` `Google Colab`
