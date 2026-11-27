@@ -2,7 +2,7 @@
 
 # 📊 Codeit Sprint · AI 데이터 분석가 16기
 
-**공공데이터 EDA → 행동 로그 세그먼트 분석 → 머신러닝 예측 모델링**
+**공공데이터 EDA → 행동 로그 세그먼트 분석 → 머신러닝 예측 모델링 → 프로덕트 퍼널·고객 세분화**
 <br>
 단계별로 분석 범위를 넓혀 온 팀 프로젝트 기록입니다.
 
@@ -12,6 +12,9 @@
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![SQL](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square&logo=looker&logoColor=white)
 ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logoColor=black)
 ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
@@ -57,7 +60,15 @@
 
 <br>
 
-### 🔒 04 · 고급 — 진행 예정
+### 📱 04 · 고급 — [10대 익명 투표 SNS의 재결제 단절 분석 및 고객 세분화 전략](./04_advanced_rebilling-bottleneck)
+
+> **첫 결제자는 왜 다시 사지 않는가, 누구부터 다시 사게 만들 것인가?**
+
+- 서비스 DB 21개 테이블 + Hackle 이벤트 로그를 **유저 단위로 연결**, 타임존·중복·세션 매핑 검증
+- 7일 재결제율 **20.4% → 7.1%**, 재결제하지 않은 사람의 **91.8%는 앱에 남아 있음** (앱 재실행 72.7% → 상점 재방문 16.0%)
+- 병목 유저를 힌트 가격 기준 **하트 잔액 4개 세그먼트**로 나눠 우선순위별 개선안·A/B 테스트 설계, Looker Studio 대시보드 구성
+
+`SQL` `MySQL` `퍼널 분석` `세그먼테이션` `로지스틱 회귀` `BigQuery` `Looker Studio`
 
 ---
 
@@ -68,7 +79,7 @@ codeit-data-analysis/
 ├── 01_beginner_subway-free-ride/
 ├── 02_intermediate1_nonpaying-segment/
 ├── 03_intermediate2_shared-office-conversion/
-└── 04_advanced/
+└── 04_advanced_rebilling-bottleneck/
 
 📂 각 프로젝트 폴더
  ├── README.md     프로젝트 요약
